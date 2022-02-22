@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <title>HBD ครับ</title>
+    </head>
+
+    <body>
+        <button class="touch-screen" onclick="countFuntion()">
+        </button>
+        <div class="text-center">
+            <button onclick="countFuntion()"><h1><p id="word">สวัสดีงับ😉</p></h1></button>
+        </div>
+    </body>
+
+    <script>
+        i = 0;
+        function countFuntion() {
+            word1 = "ถ้าหนูได้อ่านข้อความนี้แสดงว่า..."
+            word2 = '"หนูคือคนที่พิเศษมากๆ สำหรับพี่"'
+            word3 = "และก็"
+            word4 = "🎉HBD นะครับคนเก่ง🎉"
+            word5 = "โตขึ้นอีกปีแล้วนะครับ"
+            word6 = "เก่งมากเลย😊"
+            word7 = "Luv u นะครับ 🤍"
+            const word_list = [word1, word2, word3, word4, word5, word6, word7]
+            document.getElementById("word").innerHTML = word_list[i]
+            i++
+            if (i == 7){
+                i = 6;
+            }
+        }
+    </script>
+
+</html>

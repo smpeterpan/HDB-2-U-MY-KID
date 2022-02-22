@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+    height: 100%;
+}
+
+.text-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+.touch-screen {
+    background-color: aqua;
+    opacity: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: rgb(31, 31, 31);
+    border: none;
+}
